@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/rc_crud"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/rc_cars"
+            android:icon="@drawable/ic_cars"
+            android:title="@string/our_cars" />
+        //rc_cars = rent a car -> cars. burada arabaların listesi ve durumu olacak.
+        rc_crud değişebilir.
+        <item
+            android:id="@+id/rc_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/contact_us" />
+
+    </group>
+</menu>
